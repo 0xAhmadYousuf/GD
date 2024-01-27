@@ -2531,8 +2531,11 @@ def downloader():
     try:
         banner()
         running=True
-        url_done=False
         while running:
+            url_done=False
+            gonext=""
+            github_url=""
+            extrackfile=""
             gonext = take_color_input(texts="\n\n[?] Want to Download any Git Repo (y/n): ", interval=0.01) # 'https://github.com/galihap76/collector'
             if gonext == "y" or gonext == "Y":
                 running=True
@@ -2543,7 +2546,7 @@ def downloader():
                 running=False
                 print_slowly_txt(texts="[x] Oh ok, bye bye", texttype="u")
                 return True
-            if not url_done: github_url = take_color_input(texts="[?] Enter Git URL : ", interval=0.01) # 'https://github.com/galihap76/collector'
+            if url_done==False: github_url = take_color_input(texts="[?] Enter Git URL : ", interval=0.01) # 'https://github.com/galihap76/collector'
             transformed_url, username, repo_name = transform_github_url(github_url)
             output_file_name = f'{username}__{repo_name}.zip'
 
