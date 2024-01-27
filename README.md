@@ -46,21 +46,25 @@
 
 
 
+
+
+
+
+
 # Building from Source (For Editors)
 
-If you're an editor interested in contributing to or modifying the Git Downloader source code, follow these steps to build the executable from the source:
+If you're interested in contributing to or modifying the Git Downloader source code, follow these steps to build the executable from the source:
 
 1. **Clone the Repository:**
    - Clone the Git Downloader repository to your local machine using the following command:
      ```
-     git clone https://github.com/yourusername/git-downloader.git
+     git clone https://github.com/0xAhmadYousuf/GD.git
      ```
-   - Replace `yourusername` with your GitHub username.
 
 2. **Navigate to the Repository Directory:**
    - Change into the repository directory:
      ```
-     cd git-downloader
+     cd GD
      ```
 
 3. **Install Dependencies:**
@@ -74,7 +78,7 @@ If you're an editor interested in contributing to or modifying the Git Downloade
      This command will generate the `Git_Downloader.exe` executable in the `out` directory.
    - For Linux, use the following command:
      ```
-     nuitka --standalone --show-progress --show-memory --output-dir=out --onefile git_downloader.py
+     nuitka --standalone --show-progress --show-memory --output-dir=out --onefile --linux-icon=icon.png git_downloader.py
      ```
      This command will generate the `Git_Downloader` executable in the `out` directory.
 
@@ -93,9 +97,12 @@ If you're an editor interested in contributing to or modifying the Git Downloade
        ```
        ./out/Git_Downloader
        ```
+
 7. **Create a Pull Request (Optional):**
    - If you've made valuable contributions and wish to share them with the project, consider creating a pull request.
+
 8. **Share Feedback:**
-   - Feel free to open issues or provide feedback on the [GitHub repository](https://github.com/yourusername/git-downloader).
+   - Feel free to open issues or provide feedback on the [GitHub repository](https://github.com/0xAhmadYousuf/GD).
+
 9. **Acknowledgment:**
-   - Ensure that you adhere to the project's coding standards and guidelines. Provide clear commit messages and follow
+   - Ensure that you adhere to the project's coding standards and guidelines. Provide clear commit messages and follow the contribution guidelines.
