@@ -1,13 +1,8 @@
 # GD
-For Those Who don't use GitClone
+`For Those Who don't use GitClone`
 ![image](https://github.com/0xAhmadYousuf/GD/assets/139548576/4516a55c-8ffe-4235-8ebd-82f6ecaebad2)
-Sure, here's a more detailed README for the Git Downloader executable:
 
-
-
-# Git Downloader
-
-Git Downloader is a user-friendly tool designed to simplify the process of downloading and extracting ZIP files from GitHub repositories. This standalone executable can be used on both Windows and Linux systems without requiring Python or additional dependencies.
+*`Git Downloader is a user-friendly tool designed to simplify the process of downloading and extracting ZIP files from GitHub repositories. This standalone executable can be used on both Windows and Linux systems without requiring Python or additional dependencies.`*
 
 ## Features
 
@@ -51,7 +46,7 @@ Git Downloader is a user-friendly tool designed to simplify the process of downl
 
 
 
-## Building from Source (For Editors)
+# Building from Source (For Editors)
 
 If you're an editor interested in contributing to or modifying the Git Downloader source code, follow these steps to build the executable from the source:
 
