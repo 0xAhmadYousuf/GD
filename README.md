@@ -1,7 +1,7 @@
-# GD
+# GD -- For Those Who don't use GitClone
 ![gd](https://github.com/0xAhmadYousuf/GD/assets/139548576/ff0d78ea-5804-45cc-9c57-f417a28c21e8)
 
-`For Those Who don't use GitClone`
+
 *`Git Downloader is a user-friendly tool designed to simplify the process of downloading and extracting ZIP files from GitHub repositories. This standalone executable can be used on both Windows and Linux systems without requiring Python or additional dependencies.`*
 
 ## Features
