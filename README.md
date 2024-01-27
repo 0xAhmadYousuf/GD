@@ -32,7 +32,7 @@ Git Downloader is a user-friendly tool designed to simplify the process of downl
 1. Open a terminal and navigate to the directory containing the `Git_Downloader` executable.
 2. Run the executable using the following command:
 
-#  ./Git_Downloader
+`./Git_Downloader`
 
 3. Follow steps 2-6 from the Windows instructions above to use the application.
 
