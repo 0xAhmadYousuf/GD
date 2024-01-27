@@ -30,10 +30,7 @@ Git Downloader is a user-friendly tool designed to simplify the process of downl
 ### Linux
 
 1. Open a terminal and navigate to the directory containing the `Git_Downloader` executable.
-2. Run the executable using the following command:
-
-`./Git_Downloader`
-
+2. Run the executable using the following command: `./Git_Downloader`
 3. Follow steps 2-6 from the Windows instructions above to use the application.
 
 ## Requirements
@@ -48,26 +45,62 @@ Git Downloader is a user-friendly tool designed to simplify the process of downl
 2. Place the executable in a convenient location on your system.
 3. Follow the usage instructions provided above to start using Git Downloader.
 
-## Building from Source
 
-If you wish to build the executable from source, follow these steps:
 
-1. Clone the Git Downloader repository to your local machine.
-2. Navigate to the repository directory.
-3. Use Nuitka to compile the Python script into an executable:
-   ```
-   nuitka --mingw64 --standalone --show-progress --show-memory --output-dir=out --onefile --windows-icon-from-ico=a.ico git_downloader.py
-   ```
-   This command will generate the `Git_Downloader.exe` executable for Windows.
-4. For Linux, use the following command:
-   ```
-   nuitka --standalone --show-progress --show-memory --output-dir=out --onefile git_downloader.py
-   ```
-   This command will generate the `Git_Downloader` executable for Linux.
 
-## Disclaimer
 
-This tool is provided for educational and personal use only. Use it responsibly and respect the terms and conditions of GitHub repositories.
-```
 
-This README provides detailed instructions for both Windows and Linux users, including how to use the application, requirements, installation steps, and building from source.
+
+## Building from Source (For Editors)
+
+If you're an editor interested in contributing to or modifying the Git Downloader source code, follow these steps to build the executable from the source:
+
+1. **Clone the Repository:**
+   - Clone the Git Downloader repository to your local machine using the following command:
+     ```
+     git clone https://github.com/yourusername/git-downloader.git
+     ```
+   - Replace `yourusername` with your GitHub username.
+
+2. **Navigate to the Repository Directory:**
+   - Change into the repository directory:
+     ```
+     cd git-downloader
+     ```
+
+3. **Install Dependencies:**
+   - Ensure you have [Nuitka](https://nuitka.net/) installed on your system.
+
+4. **Compile the Python Script into an Executable:**
+   - For Windows, use the following command:
+     ```
+     nuitka --mingw64 --standalone --show-progress --show-memory --output-dir=out --onefile --windows-icon-from-ico=a.ico git_downloader.py
+     ```
+     This command will generate the `Git_Downloader.exe` executable in the `out` directory.
+   - For Linux, use the following command:
+     ```
+     nuitka --standalone --show-progress --show-memory --output-dir=out --onefile git_downloader.py
+     ```
+     This command will generate the `Git_Downloader` executable in the `out` directory.
+
+5. **Contribute or Modify:**
+   - Open the `git_downloader.py` script using your preferred text editor or integrated development environment (IDE).
+   - Make the necessary modifications or contributions to the source code.
+   - Save your changes.
+
+6. **Run the Updated Executable:**
+   - After making modifications, you can run the updated executable locally for testing:
+     - For Windows:
+       ```
+       ./out/Git_Downloader.exe
+       ```
+     - For Linux:
+       ```
+       ./out/Git_Downloader
+       ```
+7. **Create a Pull Request (Optional):**
+   - If you've made valuable contributions and wish to share them with the project, consider creating a pull request.
+8. **Share Feedback:**
+   - Feel free to open issues or provide feedback on the [GitHub repository](https://github.com/yourusername/git-downloader).
+9. **Acknowledgment:**
+   - Ensure that you adhere to the project's coding standards and guidelines. Provide clear commit messages and follow
